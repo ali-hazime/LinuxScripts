@@ -1,0 +1,2 @@
+For auto convert ass to srt subs: /home/ali/Desktop/Scripts/./cnvAuto.sh %D
+For auto permission change: chmod -R 777 %R
