@@ -6,7 +6,7 @@ for f in "$@"*.mkv;
     sed -r -i 's/ size="[0-9]+"//g' "${f%.mkv}.srt"; done
 	
 # replace current sed line with the following to remove html or anything in between corner brackets <> 
-#sed 's/<[^>]\+>//g'"${f%.mkv}.srt"; done
+#sed -i 's/<[^>]\+>//g'"${f%.mkv}.srt"; done
 
 #This is the Auto version, which has directory pipe, can get torrent client to run external program /WhereYourScriptIsLocated/./cnvAuto.sh %D
 
