@@ -5,5 +5,5 @@ for f in "$@"*.mkv;
     sed -r -i 's/ size="[0-9]+"//g' "${f%.mkv}.srt"; done
 
 
-# use this to remove all html or anything inbetween corner brackets <> 
+# use this to remove all html or anything in between corner brackets <> 
 #sed 's/<[^>]\+>//g'
